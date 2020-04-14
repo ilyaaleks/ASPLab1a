@@ -1,0 +1,9 @@
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\bin\Debug\Sum.exe.config
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\bin\Debug\Sum.exe
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\bin\Debug\Sum.pdb
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.csprojAssemblyReference.cache
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.Form1.resources
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.Properties.Resources.resources
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.csproj.GenerateResource.cache
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.exe
+D:\6sem\InternetServers\Lab01111\Lab01\Sum\obj\Debug\Sum.pdb

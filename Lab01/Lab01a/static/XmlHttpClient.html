@@ -1,0 +1,31 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function sendRequest() {
+            let xhr = new XMLHttpRequest();
+            let x = document.getElementById('x').value;
+            let y = document.getElementById('y').value;
+            let sum = document.getElementById('sum');
+            xhr.open("POST", "https://localhost:44390/xml-http?x=" + x + "&y=" + y);
+            xhr.send();
+            xhr.onload = function () {
+                if (xhr.status != 200) {
+                    alert(`Ошибка ${xhr.status}: ${xhr.statusText}`);
+                } else {
+                    sum.textContent = xhr.responseText
+                }
+            };
+        }
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="Введите x" id="x">
+    <br />
+    <input type="text" placeholder="Введите y" id="y">
+    <input type="button" value="Отправить" onclick="sendRequest()" />
+    <p>Сумма: </p>
+    <p id="sum"></p>
+</body>
+</html>
